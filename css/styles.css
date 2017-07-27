@@ -250,7 +250,7 @@ header.masthead .mh-slider {
 }
 
 section {
-  padding: 200px 0;
+  /*padding: 200px 0;*/
 }
 section#features {
   background-image: url(../img/petfut_landing_1920x1080_gato_2.png);
@@ -427,11 +427,18 @@ section#download .container .btn-group.small .btn:hover {
   border: none !important;
 }
 section#settings {
-  color: white;
-  background: #de5749;
+      color: white;
+    background: rgba(239, 229, 229, 0.48);
+    /* max-height: 41%; */
+    /*max-width: 62%;*/
+    border-radius: 20px;
+     margin-top: 5%; 
+    /* margin-left: -13%; */
 }
 section#settings img {
-  margin-left: 30px;
+  /*margin-left: 30px;*/
+  height: 20%;
+  width: 20%;
 }
 section#settings h2 {
   font-weight: bold;
@@ -975,7 +982,7 @@ footer .rights a {
 
 .btn.btn-default {
   background: white;
-  color: #de5749;
+  color: #e6724e;
 }
 .btn.btn-default:hover {
   background: none;

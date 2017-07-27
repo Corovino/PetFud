@@ -87,8 +87,8 @@ var appMaster = {
 
     maps: function(){
         // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
-        google.maps.event.addDomListener(window, 'resize', init);
+        //google.maps.event.addDomListener(window, 'load', init);
+        //google.maps.event.addDomListener(window, 'resize', init);
 
         function init() {
             // Basic options for a simple Google Map
@@ -190,7 +190,7 @@ var appMaster = {
                     }
                 ]
             };
-
+/*
             // Get the HTML DOM element that will contain your map 
             // We are using a div with id="map" seen below in the <body>
             var mapElement = document.getElementById('map');
@@ -213,7 +213,7 @@ var appMaster = {
                 icon: image,
                 map: map,
                 title: 'Hello World!'
-            });
+            });*/
 
         }
     },
