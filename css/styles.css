@@ -255,6 +255,7 @@ section {
 section#features {
   background-image: url(../img/petfut_landing_1920x1080_gato_2.png);
   /*background: rgba(191 , 96 , 53 ,  0.70);*/
+  background-attachment: fixed;
 }
 section#features .feature {
   text-align: center;
@@ -856,10 +857,11 @@ section#sponsors {
 }
 
 footer {
-  background-image: url(../img/grey.jpg);
+  background-image: url(../img/petfut_landing_1920x1080_perro.png);
   position: relative;
   padding: 5px 0;
   color: white;
+  background-attachment: fixed;
 }
 footer:before {
   content: "";
@@ -982,7 +984,7 @@ footer .rights a {
 
 .btn.btn-default {
   background: white;
-  color: #e6724e;
+  color: #de5749;
 }
 .btn.btn-default:hover {
   background: none;
