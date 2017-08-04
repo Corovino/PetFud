@@ -50,7 +50,7 @@ $("#saveF").click(function() {
                             type: 'POST',
                             data: $('#formReg').serialize(),
                             
-                    }).done(function() {
+                    }).done(function(data) {
                               swal("Gracias!!!", "Pronto recibiras mas información", "success");                              
                               $("#formReg")[0].reset();
                    });

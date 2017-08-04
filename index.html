@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/sweetalert.css">
     <script src="js/modernizr.custom.32033.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
 
     <!--[if IE]><script type="text/javascript" src="js/excanvas.compiled.js"></script><![endif]-->
@@ -43,40 +44,31 @@
 
 <!--====================================HEADER====================================================-->
 <header class="masthead">
-    <div class="slider-container" id="slider">
+    <div class="slider-container img-responsive" id="slider">
         <div class="container">
             <div class="row mh-container">
 
                 <img src="img/logo_blanco_300x150.png" alt="Logo_pet">
                 <h3>Nuestro mejor amigo es lo mas importante..!!</h3><br><br><br><br>
 
-                
-                        
-                           
-                                <div class="col-md-2">
-                                </div>
-                                <div class="col-md-8">
-                                    <section id="settings">
-                                   
-                                            <img src="img/icon_white_100x100.png" alt="" class="">
-                                            <h2 class="" style="margin-top: 0px;"><span>PetFud El aliado para tu </span>mascota</h2>
-                                            <p class="first">Puedes disfrutar de tus mejores momentos y sabes que tu mejor amigo no le hara falta nada y el te lo agradecera.</p>
-                                            <p>
-                                                <a href="#formReg" class="btn btn-default " >Saber mas !!!</a>
-                                                
-                                            </p>
-                                    </section>
-                                </div>
-                               
-                                <div class="col-md-2">
-                                </div>
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-8">
+                    <section id="settings">
+                   
+                            <img src="img/icon_white_100x100.png" alt="" class="">
+                            <h2 class="" style="margin-top: 0px;"><span>PetFud El aliado para tu </span>mascota</h2>
+                            <p class="first">Puedes disfrutar de tus mejores momentos y sabes que tu mejor amigo no le hara falta nada y el te lo agradecera.</p>
+                            <p>
+                                <a href="#formReg" class="btn btn-default " >Saber mas !!!</a>
                                 
-                            
-                        
-
-
-
-
+                            </p>
+                    </section>
+                </div>
+               
+                <div class="col-md-2">
+                </div>
+                 
             </div>
         </div>
     </div>
@@ -97,11 +89,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav social hidden-xs hidden-sm">
-                    <li><a href="#"><i class="fa fa-google-plus fa-lg fa-fw"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter fa-lg fa-fw"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook fa-lg fa-fw"></i></a></li>
-                    <li><a href="#"><i class="fa fa-pinterest fa-lg fa-fw"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin fa-lg fa-fw"></i></a></li>
+                    <li><a href="https://twitter.com/Pet_FudCol" target="_blank"><i class="fa fa-twitter fa-lg fa-fw"></i></a></li>
+                    <li><a href="https://www.facebook.com/PetFudCol/" target="_blank"><i class="fa fa-facebook fa-lg fa-fw"></i></a></li>
+                    
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#slider">Home</a></li>
@@ -120,73 +110,75 @@
 </header>
 <!--====================================FIN HEADER====================================================-->
 <!--====================================FEATURES====================================================-->
-<section id="features">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-push-2 clearfix">
-                <div class="section-heading scrollpoint sp-effect3">
-                    <h3>petfud</h3>
-                    <span class="divider"></span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis vel reprehenderit expedit!</p>
+<div id="featuress">
+    <section id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-push-2 clearfix">
+                    <div class="section-heading scrollpoint sp-effect3">
+                        <h3>petfud</h3>
+                        <span class="divider"></span>
+                        <p>Estos son algunos de los benéficos que te ofrecemos, para que te dediques a disfrutar de tu mascota y de la alimentación nos encargamos nosotros.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-12">
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <div class="row">
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="feature scrollpoint sp-effect2">
-                                        <div class="icon">
-                                            <i class="fa fa-weixin fa-4x"></i>
+                <div class="col-md-12">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="feature scrollpoint sp-effect2">
+                                            <div class="icon">
+                                                <i class="fa fa-weixin fa-4x"></i>
+                                            </div>
+                                            <h4>Alimento de la mejor calidad</h4>
+                                            <p>tu compañero estara agradecido por recibir el mejor alimento del mercado.</p>
                                         </div>
-                                        <h4>Alimento de la mejor calidad</h4>
-                                        <p>tu compañero estara agradecido por recibir el mejor alimento del mercado.</p>
                                     </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="feature scrollpoint sp-effect2">
-                                        <div class="icon">
-                                            <i class="fa fa-ticket fa-4x"></i>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="feature scrollpoint sp-effect2">
+                                            <div class="icon">
+                                                <i class="fa fa-ticket fa-4x"></i>
+                                            </div>
+                                            <h4>Entregas 7/24</h4>
+                                            <p>Tu compra programada sera entregada en el horario que mejor se te ajuste.</p>
                                         </div>
-                                        <h4>Entregas 7/24</h4>
-                                        <p>Tu compra programada sera entregada en el horario que mejor se te ajuste.</p>
                                     </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="feature scrollpoint sp-effect1">
-                                        <div class="icon">
-                                            <i class="fa fa-dollar fa-4x"></i>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="feature scrollpoint sp-effect1">
+                                            <div class="icon">
+                                                <i class="fa fa-dollar fa-4x"></i>
+                                            </div>
+                                            <h4>Inscripción gratuita</h4>
+                                            <p>Solo pagas por el alimento de tu mascota y accedes a muchos beneficios</p>
                                         </div>
-                                        <h4>Inscripción gratuita</h4>
-                                        <p>Solo pagas por el alimento de tu mascota y accedes a muchos beneficios</p>
                                     </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="feature scrollpoint sp-effect1">
-                                        <div class="icon">
-                                            <i class="fa fa-cogs fa-4x"></i>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="feature scrollpoint sp-effect1">
+                                            <div class="icon">
+                                                <i class="fa fa-cogs fa-4x"></i>
+                                            </div>
+                                            <h4>Administra tus pagos</h4>
+                                            <p>Puedes escoger diferentes planes para todas tus mascotas</p>
                                         </div>
-                                        <h4>Administra tus pagos</h4>
-                                        <p>Puedes escoger diferentes planes para todas tus mascotas</p>
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
-                        
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        </ol>
                     </div>
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    </ol>
-                </div>
 
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+</div>
 
 
 <!--====================================FIN FEATURES====================================================-->
@@ -286,6 +278,8 @@
                                     <input type="text" name="email" class="form-control" placeholder="">
                                 </div>
 
+
+
                                 <div class="col-md-3 spirat">
                                     <div class="form-group">
                                     <br>
@@ -300,8 +294,10 @@
 
                 </div>
                 <div class="col-md-12" style="text-align: center;">
+
                     
                     <span class="input-group-btn" style="padding: 20px;">
+                        <div class="g-recaptcha" style="text-align: -moz-center; padding-bottom: 15px;" data-sitekey="6LexGSsUAAAAAKJwUKiuNU7PFz6TIMPiP33YKuA3"></div>
                         <button class="btn" id="saveF" type="submit" style="background-color: rgba(0, 0, 0, 0);">Registrarme</button>
                     </span>
                 </div>
@@ -310,11 +306,8 @@
                 <div class="col-md-12">
                     <div class="social">
                         <ul>
-                            <li><a href="#"><i class="fa fa-google-plus fa-lg"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                            <li><a href="https://www.facebook.com/PetFudCol/"><i class="fa fa-facebook fa-lg"></i></a></li>
-                            <li><a href="#"><i class="fa fa-pinterest fa-lg"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                            <li><a href="https://twitter.com/Pet_FudCol" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+                            <li><a href="https://www.facebook.com/PetFudCol/" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
                         </ul>
                     </div>
                     <p class="rights">
