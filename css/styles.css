@@ -43,6 +43,7 @@ header.masthead .mh-slider {
 }
 
 #slider {
+  background-image: url(../img/petfut_landing_both.png);
   overflow: hidden;
   background-attachment: fixed;
   position: relative;
@@ -262,6 +263,7 @@ section {
 
 
 #featuress {
+  background-image: url(../img/petfut_landing_1920x1080_gato_2.png);
            
             background-attachment: fixed;
         }
@@ -866,7 +868,7 @@ section#sponsors {
 }
 
 footer {
-  
+  background-image: url(../img/petfut_landing_1920x1080_perro_2.png);
   position: relative;
   padding: 5px 0;
   color: white;
@@ -1179,15 +1181,5 @@ a {
 
 }
 
-@media only (min-device-width: 900px) and (max-device-width: 2600px)   {
-  #slider {
-      background-image: url(../img/petfut_landing_both.png);
-  }
-  #featuress {
-      background-image: url(../img/petfut_landing_1920x1080_gato_2.png);
-  }
-  footer {
-      background-image: url(../img/petfut_landing_1920x1080_perro_2.png);
-  }
-}
+
 
