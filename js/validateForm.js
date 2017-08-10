@@ -49,15 +49,22 @@ $("#saveF").click(function() {
                             url: 'php/registro.php',
                             type: 'POST',
                             data: $('#formReg').serialize(),
+                            success: function(data){ 
+                              
+                                 swal("Gracias!!!", "Pronto recibiras mas información", "success");                              
+                                    $("#formReg")[0].reset(); 
+                        
+
+                           
+                      } 
                             
-                    }).done(function(data) {
-                              swal("Gracias!!!", "Pronto recibiras mas información", "success");                              
-                              $("#formReg")[0].reset();
-                   });
+                    });
+                             
+                   
                 }
         
         
-      }); 
+      });
        
        
                    
