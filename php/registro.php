@@ -32,6 +32,7 @@ include ("conexion.php");
 		}else{
 		
 			echo "false";
+			
 		}/* 
 		echo "true";
 	}else{
