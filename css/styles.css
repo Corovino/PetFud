@@ -44,7 +44,7 @@
   }
  
 }
-@media only screen and (min-device-width: 1025px), only screen  and (max-device-width: 3000px) {
+@media only screen and (min-device-width: 1025px) and (max-device-width: 3000px) {
   #slider {
       background-image: url(../img/pc/petfut_landing_both.png);
       /*-webkit-background-image: url(../img/petfut_landing_800x1280_both_2.png);*/
