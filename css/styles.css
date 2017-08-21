@@ -73,6 +73,166 @@
 
 
 
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    #slider {
+      background-image: url(../img/cel/petfut_landing320both1.png);
+      background-attachment: fixed;
+      /*-webkit-background-image: url(../img/petfut_landing320both1.png);*/
+  }
+  #featuress {
+      background-image: url(../img/cel/petfut_landing320cat1.png);
+      background-attachment: fixed;
+      background-repeat: round;
+      /*-webkit-background-image: url(../img/petfut_landing320cat1.png);*/
+  }
+  footer {
+      background-image: url(../img/cel/petfut_landing_320dog1.png);
+      background-attachment: fixed;
+      /*-webkit-background-image: url(../img/petfut_landing_320dog1.png);*/
+  }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+    #slider {
+      background-image: url(../img/cel/petfut_landing320both1.png);
+      background-attachment: fixed;
+      /*-webkit-background-image: url(../img/petfut_landing320both1.png);*/
+  }
+  #featuress {
+      background-image: url(../img/cel/petfut_landing320cat1.png);
+      background-attachment: fixed;
+      background-repeat: round;
+      /*-webkit-background-image: url(../img/petfut_landing320cat1.png);*/
+  }
+  footer {
+      background-image: url(../img/cel/petfut_landing_320dog1.png);
+      background-attachment: fixed;
+      /*-webkit-background-image: url(../img/petfut_landing_320dog1.png);*/
+  }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+    #slider {
+      background-image: url(../img/cel/petfut_landing320both1.png);
+      background-attachment: fixed;
+      /*-webkit-background-image: url(../img/petfut_landing320both1.png);*/
+  }
+  #featuress {
+      background-image: url(../img/cel/petfut_landing320cat1.png);
+      background-attachment: fixed;
+      background-repeat: round;
+      /*-webkit-background-image: url(../img/petfut_landing320cat1.png);*/
+  }
+  footer {
+      background-image: url(../img/cel/petfut_landing_320dog1.png);
+      background-attachment: fixed;
+      /*-webkit-background-image: url(../img/petfut_landing_320dog1.png);*/
+  }
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    #slider {
+      background-image: url(../img/cel/petfut_landing320both1.png);
+      background-attachment: fixed;
+      /*-webkit-background-image: url(../img/petfut_landing320both1.png);*/
+  }
+  #featuress {
+      background-image: url(../img/cel/petfut_landing320cat1.png);
+      background-attachment: fixed;
+      background-repeat: round;
+      /*-webkit-background-image: url(../img/petfut_landing320cat1.png);*/
+  }
+  footer {
+      background-image: url(../img/cel/petfut_landing_320dog1.png);
+      background-attachment: fixed;
+      /*-webkit-background-image: url(../img/petfut_landing_320dog1.png);*/
+  }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    #slider {
+      background-image: url(../img/cel/petfut_landing320both1.png);
+      background-attachment: fixed;
+      /*-webkit-background-image: url(../img/petfut_landing320both1.png);*/
+  }
+  #featuress {
+      background-image: url(../img/cel/petfut_landing320cat1.png);
+      background-attachment: fixed;
+      background-repeat: round;
+      /*-webkit-background-image: url(../img/petfut_landing320cat1.png);*/
+  }
+  footer {
+      background-image: url(../img/cel/petfut_landing_320dog1.png);
+      background-attachment: fixed;
+      /*-webkit-background-image: url(../img/petfut_landing_320dog1.png);*/
+  }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+    #slider {
+      background-image: url(../img/cel/petfut_landing320both1.png);
+      background-attachment: fixed;
+      /*-webkit-background-image: url(../img/petfut_landing320both1.png);*/
+  }
+  #featuress {
+      background-image: url(../img/cel/petfut_landing320cat1.png);
+      background-attachment: fixed;
+      background-repeat: round;
+      /*-webkit-background-image: url(../img/petfut_landing320cat1.png);*/
+  }
+  footer {
+      background-image: url(../img/cel/petfut_landing_320dog1.png);
+      background-attachment: fixed;
+      /*-webkit-background-image: url(../img/petfut_landing_320dog1.png);*/
+  }
+
+}
+
+
+
 
 
 
