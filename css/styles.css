@@ -14,15 +14,18 @@
 @media only screen and (max-device-width: 750px) {
   #slider {
       background-image: url(../img/cel/petfut_landing320both1.png);
+      background-attachment: fixed;
       /*-webkit-background-image: url(../img/petfut_landing320both1.png);*/
   }
   #featuress {
       background-image: url(../img/cel/petfut_landing320cat1.png);
+      background-attachment: fixed;
       background-repeat: round;
       /*-webkit-background-image: url(../img/petfut_landing320cat1.png);*/
   }
   footer {
       background-image: url(../img/cel/petfut_landing_320dog1.png);
+      background-attachment: fixed;
       /*-webkit-background-image: url(../img/petfut_landing_320dog1.png);*/
   }
 
@@ -30,16 +33,19 @@
 @media only  screen and (min-device-width: 751px), only screen and (max-device-width: 1024px) {
   #slider {
       background-image: url(../img/cel/petfut_landing_640x980_both.png);
+      background-attachment: fixed;
       /*-webkit-background-image: url(../img/petfut_landing_640x980_both.png);*/
       
   }
   #featuress {
       background-image: url(../img/cel/petfut_landing_640x980_gato_2.png);
+      background-attachment: fixed;
       background-repeat: round;
       /*-webkit-background-image: url(../img/petfut_landing_640x980_gato_2.png);*/
   }
   footer {
       background-image: url(../img/cel/petfut_landing_640x980_perro_2.png);
+      background-attachment: fixed;
       /*-webkit-background-image: url(../img/petfut_landing_640x980_perro_2.png);*/
   }
  
@@ -47,15 +53,18 @@
 @media only screen and (min-device-width: 1025px) and (max-device-width: 3000px) {
   #slider {
       background-image: url(../img/pc/petfut_landing_both.png);
+      background-attachment: fixed;
       /*-webkit-background-image: url(../img/petfut_landing_800x1280_both_2.png);*/
   }
   #featuress {
       background-image: url(../img/pc/petfut_landing_1920x1080_gato_2.png);
+      background-attachment: fixed;
       background-repeat: round;
       /*-webkit-background-image: url(../img/petfut_landing_800x1280_cat_2.png);*/
   }
   footer {
       background-image: url(../img/pc/petfut_landing_1920x1080_perro_2.png);
+      background-attachment: fixed;
       /*-webkit-background-image: url(../img/petfut_landing_800x1280_cat_2.png);*/
   }
 
