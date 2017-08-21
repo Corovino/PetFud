@@ -6,6 +6,78 @@
   background-size: cover;
 }
 
+
+
+
+
+
+@media only screen and (max-device-width: 750px) {
+  #slider {
+      background-image: url(../img/cel/petfut_landing320both1.png);
+      /*-webkit-background-image: url(../img/petfut_landing320both1.png);*/
+  }
+  #featuress {
+      background-image: url(../img/cel/petfut_landing320cat1.png);
+      background-repeat: round;
+      /*-webkit-background-image: url(../img/petfut_landing320cat1.png);*/
+  }
+  footer {
+      background-image: url(../img/cel/petfut_landing_320dog1.png);
+      /*-webkit-background-image: url(../img/petfut_landing_320dog1.png);*/
+  }
+
+}
+@media only (min-device-width: 751px) and (max-device-width: 1024px) {
+  #slider {
+      background-image: url(../img/cel/petfut_landing_640x980_both.png);
+      /*-webkit-background-image: url(../img/petfut_landing_640x980_both.png);*/
+      
+  }
+  #featuress {
+      background-image: url(../img/cel/petfut_landing_640x980_gato_2.png);
+      background-repeat: round;
+      /*-webkit-background-image: url(../img/petfut_landing_640x980_gato_2.png);*/
+  }
+  footer {
+      background-image: url(../img/cel/petfut_landing_640x980_perro_2.png);
+      /*-webkit-background-image: url(../img/petfut_landing_640x980_perro_2.png);*/
+  }
+ 
+}
+@media only (min-device-width: 1025px) and (max-device-width: 3000px) {
+  #slider {
+      background-image: url(../img/pc/petfut_landing_both.png);
+      /*-webkit-background-image: url(../img/petfut_landing_800x1280_both_2.png);*/
+  }
+  #featuress {
+      background-image: url(../img/pc/petfut_landing_1920x1080_gato_2.png);
+      background-repeat: round;
+      /*-webkit-background-image: url(../img/petfut_landing_800x1280_cat_2.png);*/
+  }
+  footer {
+      background-image: url(../img/pc/petfut_landing_1920x1080_perro_2.png);
+      /*-webkit-background-image: url(../img/petfut_landing_800x1280_cat_2.png);*/
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
   font-family: "Open Sans", Tahoma, Arial;
 }
@@ -43,7 +115,6 @@ header.masthead .mh-slider {
 }
 
 #slider {
-  background-image: url(../img/petfut_landing_both.png);
   overflow: hidden;
   background-attachment: fixed;
   position: relative;
@@ -263,10 +334,8 @@ section {
 
 
 #featuress {
-  background-image: url(../img/petfut_landing_1920x1080_gato_2.png);
-           
-            background-attachment: fixed;
-        }
+  background-attachment: fixed;
+}
 
 section#features .feature {
   text-align: center;
@@ -868,7 +937,6 @@ section#sponsors {
 }
 
 footer {
-  background-image: url(../img/petfut_landing_1920x1080_perro_2.png);
   position: relative;
   padding: 5px 0;
   color: white;
@@ -1130,56 +1198,7 @@ a {
 
 
 
-@media only screen and (max-device-width: 400px) {
-  #slider {
-      background-image: url(../img/petfut_landing320both1.png);
-      /*-webkit-background-image: url(../img/petfut_landing320both1.png);*/
-  }
-  #featuress {
-      background-image: url(../img/petfut_landing320cat1.png);
-      /*-webkit-background-image: url(../img/petfut_landing320cat1.png);*/
-  }
-  footer {
-      background-image: url(../img/petfut_landing_320dog1.png);
-      /*-webkit-background-image: url(../img/petfut_landing_320dog1.png);*/
-  }
 
-}
-@media only (min-device-width: 400px) and (max-device-width: 600px) {
-  #slider {
-      background-image: url(../img/petfut_landing_640x980_both.png);
-      /*-webkit-background-image: url(../img/petfut_landing_640x980_both.png);*/
-      
-  }
-  #featuress {
-      background-image: url(../img/petfut_landing_640x980_gato_2.png);
-      /*-webkit-background-image: url(../img/petfut_landing_640x980_gato_2.png);*/
-  }
-  footer {
-      background-image: url(../img/petfut_landing_640x980_perro_2.png);
-      /*-webkit-background-image: url(../img/petfut_landing_640x980_perro_2.png);*/
-  }
-  /*#nav .navbar-nav li a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }*/
-}
-@media only (min-device-width: 601px) and (max-device-width: 900px) {
-  #slider {
-      background-image: url(../img/petfut_landing_800x1280_both_2.png);
-      -webkit-background-image: url(../img/petfut_landing_800x1280_both_2.png);
-  }
-  #featuress {
-      background-image: url(../img/petfut_landing_800x1280_cat_2.png);
-      -webkit-background-image: url(../img/petfut_landing_800x1280_cat_2.png);
-  }
-  footer {
-      background-image: url(../img/petfut_landing_800x1280_cat_2.png);
-      -webkit-background-image: url(../img/petfut_landing_800x1280_cat_2.png);
-  }
-
-
-}
 
 
 
